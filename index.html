@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer X</title>
+    <title>Kevin Moreno – Desarrollador de Software</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
     <style>
         body {
             margin: 0;
@@ -45,7 +46,7 @@
             font-size: 15px;
         }
 
-        /* HERO SECTION */
+        /* HERO */
         .hero {
             display: flex;
             justify-content: space-between;
@@ -86,10 +87,11 @@
 
         .hero img {
             width: 380px;
-            border-radius: 10px;
+            border-radius: 12px;
+            object-fit: cover;
         }
 
-        /* RIGHT SIDE CARDS */
+        /* SIDE INFO */
         .right-info {
             max-width: 350px;
             margin-top: 40px;
@@ -125,7 +127,7 @@
             margin: 25px 0;
         }
 
-        /* SOCIALS */
+        /* SOCIAL ICONS */
         .social {
             display: flex;
             gap: 18px;
@@ -149,56 +151,68 @@
     <!-- NAV -->
     <nav>
         <div class="logo">
-            <i class="fa-solid fa-code"></i> Developer X
+            <i class="fa-solid fa-code"></i> KevinDev
         </div>
 
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Pages</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#work">Experiencia</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
     </nav>
 
     <!-- HERO -->
     <section class="hero">
         <div class="hero-text">
-            <h1>I’m John, a<br>Web Developer</h1>
+            <h1>Soy Kevin,<br>Desarrollador de Software</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis ullamcorper quis id elementum convallis lacus gravida.</p>
+            <p>Desarrollador e instructor con más de 2 años de experiencia creando soluciones digitales escalables.
+               Apasionado por la automatización, el backend y la construcción de productos eficientes.</p>
 
             <div class="scroll-btn">
                 <i class="fa-solid fa-chevron-down"></i>
             </div>
         </div>
 
-        <img src="https://i.imgur.com/4Z8WbPo.png" alt="developer">
+        <!-- FOTO DEL USUARIO -->
+        <img src="img/kevin.png" alt="Foto de Kevin Moreno">
 
+        <!-- INFO LATERAL -->
         <div class="right-info">
-            <div class="info-block">
-                <h3>ABOUT ME</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis ullamcorper quis id elementum convallis lacus gravida.</p>
-                <a href="#">LEARN MORE →</a>
+
+            <!-- ABOUT -->
+            <div class="info-block" id="about">
+                <h3>SOBRE MÍ</h3>
+                <p>Instructor y desarrollador con experiencia en software, robótica, electrónica básica y mantenimiento
+                   de equipos. Formación en ingeniería biotecnológica y desarrollo de software.</p>
+                <a href="#contact">Leer más →</a>
             </div>
 
             <div class="divider"></div>
 
-            <div class="info-block">
-                <h3>MY WORK</h3>
-                <p>Purus ut faucibus pulvinar elementum integer enim neque fermentum iaculis eu non diam phasellus dolor consectetur.</p>
-                <a href="#">BROWSE PORTFOLIO →</a>
+            <!-- WORK -->
+            <div class="info-block" id="work">
+                <h3>EXPERIENCIA</h3>
+                <p><b>Instructor – SENA (2024 – Actual)</b><br>
+                   Programación de software, robótica, electrónica básica y mantenimiento.</p>
+
+                <p><b>Docente Técnico – CAMU (2025 – Actual)</b><br>
+                   Formación en tecnologías y desarrollo de software.</p>
+
+                <a href="#portfolio">Ver proyectos →</a>
             </div>
 
             <div class="divider"></div>
 
-            <h3>FOLLOW ME</h3>
+            <!-- FOLLOW -->
+            <h3>SÍGUEME</h3>
             <div class="social">
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-linkedin"></i>
-                <i class="fab fa-youtube"></i>
                 <i class="fab fa-github"></i>
             </div>
         </div>
